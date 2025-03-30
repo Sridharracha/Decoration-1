@@ -1,6 +1,6 @@
-import logo from './logo.svg';
-import React, { useState } from 'react';
-import { BrowserRouter as Router, Route, Link, Routes, useNavigate, useLocation } from 'react-router-dom';
+
+
+import { BrowserRouter as Router, Route, Routes, useNavigate, useLocation } from 'react-router-dom';
 import './App.css';
 import GaneshImage from './Images/bg.jpeg'
 import w1 from './wedding_images/w1.jpg'
@@ -15,7 +15,6 @@ import w9 from './wedding_images/w9.jpg'
 import w10 from './wedding_images/w10.jpg'
 import { BiSolidOffer } from 'react-icons/bi';
 import { FaAddressBook } from "react-icons/fa";
-import { hasFormSubmit } from '@testing-library/user-event/dist/utils';
 
 // function App() {
 //   return (
@@ -201,14 +200,6 @@ function Engagement() {
   );
 }
 
-function Home(){
-
-  const navigate = useNavigate();
-  const handleEventClick = (event) => {
-    
-  }
-
-}
 
 function Offers(){
   return(
