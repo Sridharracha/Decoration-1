@@ -251,6 +251,7 @@ function GaneshDecorations() {
         state: { decorations: engagementDecorations },
       });
     }
+    
   };
 
   return (
